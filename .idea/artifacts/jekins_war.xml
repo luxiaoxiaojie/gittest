@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jekins:war">
+    <output-path>$PROJECT_DIR$/jekins/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jekins</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jekins-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jekins:war exploded" />
+    </root>
+  </artifact>
+</component>
